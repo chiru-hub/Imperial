@@ -17,7 +17,10 @@ export default {
         rel: "stylesheet",
         href: "/css/framework.css?v=1"
     }
-    ]
+    ],
+    script: [
+      { src: "/js/jquery-3.4.1.slim.min.js" }
+  ]
   },
   /*
   ** Customize the progress-bar color
@@ -47,6 +50,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    'vue-scrollto/nuxt',
   ],
   /*
   ** Axios module configuration
