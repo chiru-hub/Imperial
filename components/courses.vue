@@ -112,6 +112,7 @@ p {
     height: 6rem;
     font-size: 2.6rem;
     font-weight: 700;
+    color:#16246a
   }
 
 }
