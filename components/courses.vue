@@ -1,0 +1,119 @@
+<template>
+  <div>
+    <div class="my-container py-10">
+      <div class="flex flex-wrap lg:px-32">
+        <div class="w-full lg:w-1/3 lg:py-5">
+          <img src="/images/certificate_icon.png" alt="">
+        </div>
+        <div class="w-full lg:w-1/2 self-center">
+          <h2>Courses</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae perspiciatis veritatis nesciunt quibusdam, eligendi voluptates blanditiis incidunt quaerat autem aspernatur ad optio sit odio aliquam, architecto fuga corporis esse dolor!</p>
+        </div>
+      </div>
+      <div class="flex flex-wrap justify-between">
+            <div class="w-full lg:w-1/3 p-10 lg:pr-4">
+              <div class="first-part-cards2">
+                <div style="background-color:#ff8a5b" class="cards-content text-center px-5">
+                  <h4>JEE</h4>
+                  <h4>(Mains + Advanced)</h4>
+                  <p
+                    style="min-height: 6.2rem;"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente dicta, dolorem qui vel ipsum.</p>
+                  <button
+                    class="mt-8"
+                    v-scroll-to="{
+                el: '.contact',
+                duration: 1000,
+            }"
+                  >Enroll</button>
+                </div>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/3 p-10 lg:pr-4">
+              <div class="first-part-cards2">
+                <div style="background-color:#5ba8ff" class="cards-content text-center w-full px-5">
+                  <h4>JEE</h4>
+                  <h4>(Mains + Advanced)</h4>
+                  <p
+                    style="min-height: 6.2rem;"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente dicta, dolorem qui vel ipsum.</p>
+                  <button
+                    style="margin-top:10px"
+                    v-scroll-to="{
+                el: '.contact',
+                duration: 1000,
+            }"
+                  >Enroll</button>
+                </div>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/3 p-10 lg:pr-4">
+                <div style="background-color:#ff5b5b" class="cards-content text-center w-full px-5">
+                  <h4>JEE</h4>
+                  <h4>(Mains + Advanced)</h4>
+                  <p
+                    style="min-height: 6.2rem;"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente dicta, dolorem qui vel ipsum.</p>
+                  <button
+                    style="margin-top:10px"
+                    v-scroll-to="{
+                el: '.contact',
+                duration: 1000,
+            }"
+                  >Enroll</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</template>
+<style lang="scss" scoped>
+
+h2 {
+  color:#16246a;
+  font-weight: 800;
+  font-size: 4.5rem;
+}
+
+img {
+  width: auto;
+  height: 270px;
+  margin: auto;
+}
+
+p {
+  color: #16246a;
+  text-align: left;
+  font-size: 1.8rem;
+  opacity: .5;
+  font-weight: 300;
+}
+
+.cards-content {
+  border-radius: 20px;
+  min-height: 18.4rem;
+
+  h4 {
+    color:white;
+    font-size: 2.3rem;
+  }
+
+  p {
+    color:white;
+    font-size: 1.6rem;
+    text-align: justify;
+  }
+
+  button {
+    border-radius: 20px;
+    box-shadow: -18px 18px 30px 0 rgba(0, 0, 0, 0.16);
+    background-color: #d2dcf1;
+    width: 32rem;
+    height: 6rem;
+    font-size: 2.6rem;
+    font-weight: 700;
+  }
+
+}
+
+</style>

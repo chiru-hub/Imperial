@@ -2,6 +2,7 @@
   <div>
     <!-- <Header /> -->
     <Students/>
+    <Courses/>
     <nuxt />
   </div>
 </template>
@@ -10,11 +11,12 @@
 
 // import Header from "@/components/header.vue";
 import Students from "@/components/students.vue";
+import Courses from "@/components/courses.vue";
 
 export default {
   components : {
     // Header
-    Students
+    Students, Courses
   }
 }
 </script>
