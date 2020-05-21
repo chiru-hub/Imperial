@@ -2,6 +2,7 @@
   <div>
     <!-- <Header /> -->
     <Students/>
+     <ContactForm/>
     <Courses/>
     <Toppers/>
     <nuxt />
@@ -11,6 +12,8 @@
 <script>
 
 // import Header from "@/components/header.vue";
+
+import ContactForm from "@/components/contactform.vue";
 import Students from "@/components/students.vue";
 import Courses from "@/components/courses.vue";
 import Toppers from "@/components/toppers.vue";
@@ -18,7 +21,7 @@ import Toppers from "@/components/toppers.vue";
 export default {
   components : {
     // Header
-    Students, Courses, Toppers
+    ContactForm,Students, Courses, Toppers
   }
 }
 </script>
@@ -74,6 +77,12 @@ body {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+h2 {
+  color:#16246a;
+  font-weight: 800;
+  font-size: 4.5rem;
 }
 
 </style>
