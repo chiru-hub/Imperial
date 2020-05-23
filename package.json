@@ -1,29 +1,32 @@
 {
-  "name": "imperial",
-  "version": "1.0.0",
-  "description": "Imperial Coaching Center",
-  "author": "Chiranjib Paul",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "test": "jest"
-  },
-  "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/pwa": "^3.0.0-0",
-    "node-sass": "^4.14.1",
-    "nuxt": "^2.0.0",
-    "sass-loader": "^8.0.2",
-    "vue-scrollto": "^2.18.1"
-  },
-  "devDependencies": {
-    "@nuxtjs/tailwindcss": "^1.0.0",
-    "@vue/test-utils": "^1.0.0-beta.27",
-    "babel-jest": "^24.1.0",
-    "jest": "^24.1.0",
-    "vue-jest": "^4.0.0-0"
-  }
+    "name": "imperial",
+    "version": "1.0.0",
+    "description": "Imperial Coaching Center",
+    "author": "Chiranjib Paul",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt-ts",
+        "build": "nuxt-ts build",
+        "generate": "nuxt-ts generate",
+        "start": "nuxt-ts start",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@nuxt/typescript-runtime": "^0.4.7",
+        "@nuxtjs/axios": "^5.3.6",
+        "@nuxtjs/dotenv": "^1.4.1",
+        "@nuxtjs/pwa": "^3.0.0-0",
+        "node-sass": "^4.14.1",
+        "nuxt": "^2.0.0",
+        "sass-loader": "^8.0.2",
+        "vue-scrollto": "^2.18.1"
+    },
+    "devDependencies": {
+        "@nuxt/typescript-build": "^1.0.0",
+        "@nuxtjs/tailwindcss": "^1.0.0",
+        "@vue/test-utils": "^1.0.0-beta.27",
+        "babel-jest": "^24.1.0",
+        "jest": "^24.1.0",
+        "vue-jest": "^4.0.0-0"
+    }
 }

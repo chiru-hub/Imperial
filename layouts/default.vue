@@ -5,6 +5,7 @@
      <ContactForm/>
     <Courses/>
     <Toppers/>
+    <Footer/>
     <nuxt />
   </div>
 </template>
@@ -17,11 +18,12 @@ import ContactForm from "@/components/contactform.vue";
 import Students from "@/components/students.vue";
 import Courses from "@/components/courses.vue";
 import Toppers from "@/components/toppers.vue";
+import Footer from "@/components/footer.vue";
 
 export default {
   components : {
     // Header
-    ContactForm,Students, Courses, Toppers
+    ContactForm,Students, Courses, Toppers, Footer
   }
 }
 </script>
