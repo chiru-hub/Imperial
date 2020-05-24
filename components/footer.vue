@@ -9,8 +9,26 @@
         </div>
       </div>
       <div class="w-full md:w-1/2 lg:w-1/2">
-        <img src="/images/taylor.png" alt="">
+        <img class="image" src="/images/taylor.png" alt="">
       </div>
+      </div>
+    </div>
+    <div style="background-color:#16246a">
+      <div class="my-container flex flex-wrap py-20">
+        <div class="w-full md:w-1/2 lg:w1/2 footer-text-left">
+        <h3>IMPERIAL COACHING</h3>
+        <p>Postmaster, Post Office</p>
+        <p>KOHIMA (HEAD OFFICE),</p>
+        <p>KOHIMA, NAGALAND (NL),</p>
+        <p>India (IN), Pin Code:- 797001</p>
+        </div>
+        <div class="w-full md:w-1/2 lg;w-1/2 footer-text-right">
+          <h3>Subscribe to our newsletter</h3>
+          <div class=" mt-12 flex flex-wrap">
+            <input class="p-4 w-9/12" type="email" name="" id="" placeholder="Your email here">
+            <button class="ml-5 px-16">Submit</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -32,5 +50,43 @@
     line-height: 1.8;
   }
 
+}
+
+.image {
+  width: 100%;
+  height: 560px;
+}
+
+.footer-text-left {
+  h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color:#ff5454;
+  }
+
+  p {
+    color:white;
+    font-weight: 400;
+    line-height: 2.2;
+  }
+}
+
+.footer-text-right {
+
+  h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color:#ff5454;
+  }
+
+  input {
+    border-radius: 8px;
+  }
+
+  button {
+    color:white;
+    background-color:#6458ff;
+    border-radius: 8px;
+  }
 }
 </style>
