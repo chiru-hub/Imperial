@@ -21,7 +21,8 @@
 <style lang="scss" scoped>
 
 .bg-color {
-  background-color: rgb(7, 5, 102);
+    background-color: rgb(7, 5, 102);
+    clip-path: polygon(100% 1%, 100% 50%, 0 100%, 0% 50%);
 
   p {
     color:white;

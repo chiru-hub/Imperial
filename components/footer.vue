@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="my-container">
+    <div class="">
       <div class="flex flex-wrap relative">
         <div class="w-full md:w-1/2 lg:w-1/2">
         <p class="heading text-center">About Us</p>
