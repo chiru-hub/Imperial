@@ -7,6 +7,7 @@
     <Toppers/>
     <Footer/>
     <nuxt />
+    <Footer/>
   </div>
 </template>
 
