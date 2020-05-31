@@ -6,8 +6,8 @@
           <p class="heading text-center">About Us</p>
           <div class="footer-content mt-32 absolute lg:w-3/5">
             <p
-              class="px-32 py-20"
-            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              class="px-20 py-16"
+            >Imperial Institute is Nagaland's best coaching centre for IIT-JEE, NEET and Boards Preparation ( CBSE + NBSE). Equipped with state -of-the-art infrastructure, smart classroom, laboratory and library , we are the only Institute to provide hand crafted exclusive study materials with copyright. Prepare for your exams with the best brains of the state and let faculties from IITs and NITs help you reach your goals at Imperial.</p>
           </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-3/5">
@@ -32,8 +32,8 @@
           </div>
           <div class="flex justify-around mt-16 w-full md:w-full lg:w-8/12">
             <img src="/images/whatsapp.png" alt />
-            <img src="/images/instagram.png" alt />
-            <img src="/images/facebook.png" alt />
+            <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank" ><img src="/images/instagram.png" alt /></a>
+            <a href="https://facebook.com/imperialcoachingcenter/" target="_blank"><img src="/images/facebook.png" alt /></a>
           </div>
         </div>
       </div>

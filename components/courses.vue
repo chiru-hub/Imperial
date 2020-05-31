@@ -6,8 +6,8 @@
           <img src="/images/certificate_icon.png" alt />
         </div>
         <div class="w-full lg:w-1/2 self-center">
-          <h2>Courses -</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae perspiciatis veritatis nesciunt quibusdam, eligendi voluptates blanditiis incidunt quaerat autem aspernatur ad optio sit odio aliquam, architecto fuga corporis esse dolor!</p>
+          <h2>Courses</h2>
+          <p>Small Batch (only 30 stydents). Right mix of classes, problem solving and doubt clearing essions. Most updated & comprehensive study material directed by Boards and other competition Entrance Examination. Periodic tests on the latest JEE pattern as well NEET pattern. Regular feedbacks & test analysis sessions. Assignments for Home. Additional help CEE, MEE etc. Customized Teaching methodology to provide exclusive teaching to each and evry students for better results.</p>
         </div>
       </div>
       <div class="flex flex-wrap justify-between">
