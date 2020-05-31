@@ -6,7 +6,7 @@
         style="display:flex; justify-content: space-between;align-items:center"
       >
         <nuxt-link to="/" style="display:flex; align-items: center">
-          <img src="/images/logo.png" style="height:100%;width:50px" />
+          <img src="/images/logo-black.png" style="height:100%;width:50px" />
           <h6
             style="margin-bottom: 0; font-family: 'bold'; font-size: 30px; margin-left: 10px"
           >IMP</h6>
