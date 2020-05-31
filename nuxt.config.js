@@ -29,6 +29,10 @@ export default {
      ** Global CSS
      */
     css: [],
+
+    styleResources: {
+        scss: ['./assets/scss/*.scss']
+    },
     /*
      ** Plugins to load before mounting the App
      */
@@ -49,6 +53,7 @@ export default {
         '@nuxtjs/axios',
         '@nuxtjs/pwa',
         'vue-scrollto/nuxt',
+        '@nuxtjs/style-resources'
     ],
     /*
      ** Axios module configuration

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="addToCount">count {{count}}</button>
+    <!-- <button @click="addToCount">count {{count}}</button> -->
   </div>
 </template>
 
