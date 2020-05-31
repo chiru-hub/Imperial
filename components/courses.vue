@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="my-container py-10">
-      <div class="flex flex-wrap lg:px-32">
+      <div class="flex flex-wrap lg:py-32">
         <div class="w-full lg:w-1/3 lg:py-5">
           <img src="/images/certificate_icon.png" alt />
         </div>
         <div class="w-full lg:w-1/2 self-center">
-          <h2>Courses</h2>
+          <h2>Courses -</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae perspiciatis veritatis nesciunt quibusdam, eligendi voluptates blanditiis incidunt quaerat autem aspernatur ad optio sit odio aliquam, architecto fuga corporis esse dolor!</p>
         </div>
       </div>
@@ -79,7 +79,7 @@
 <style lang="scss" scoped>
 h2 {
   color: #16246a;
-  font-weight: 800;
+  font-family: 'Gilroy-Bold';
   font-size: 4.5rem;
 }
 
@@ -98,27 +98,32 @@ p {
 }
 
 .cards-content {
-  border-radius: 20px;
-  min-height: 18.4rem;
+  @apply p-10;
+  border-radius: 15px;
+  min-height: 22.4rem;
 
   h4 {
     color: white;
     font-size: 2.3rem;
+    line-height: 28px;
+    font-family: "Gilroy-bold";
   }
 
   p {
+    @apply pt-8;
     color: white;
     font-size: 1.6rem;
-    text-align: justify;
+    text-align: center;
   }
 
   .buttons {
     @apply mx-10;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: -18px 18px 30px 0 rgba(0, 0, 0, 0.16);
     background-color: #d2dcf1;
     height: 7rem;
     line-height: 7rem;
+    font-family: "Gilroy-bold";
     font-size: 26px;
     font-weight: 700;
     color: #16246a;

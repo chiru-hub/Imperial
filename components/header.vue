@@ -10,6 +10,7 @@
               :mouse-drag="false"
               :autoplay="true"
               :loop="true"
+              class="header-carousel"
               :autoplayTimeout="3000"
             >
               <slide>

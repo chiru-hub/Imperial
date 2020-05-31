@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="my-container py-10">
-      <div class="flex flex-wrap lg:px-32">
+      <div class="flex flex-wrap lg:py-32">
         <div class="w-full lg:w-1/3 lg:py-5">
           <img src="/images/filled_outline.png" alt />
         </div>
@@ -11,19 +11,68 @@
         </div>
       </div>
       <div class="flex flex-wrap justify-between">
-        <div class="w-full lg:w-1/3 p-10 lg:pr-4">
-          <div class="student-cards relative">
-            <img src="/images/student1.png" alt />
-            <div
-              class="w-4/5 mx-auto student-cards-box absolute py-6"
-              style="background-color:#ff8a5b;"
-            >
-              <p>Jane Lau</p>
-              <p>JEE- 95%</p>
-            </div>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 p-10 lg:pr-4">
+        <client-only>
+          <carousel
+            :per-page="3"
+            :mouse-drag="false"
+            :autoplay="true"
+            class="topper-carousel"
+            :loop="true"
+            :navigationEnabled="true"
+            :autoplayTimeout="2000"
+          >
+            <slide class="w-full carousel-slide">
+              <div class="student-cards relative">
+                <img src="/images/student1.png" alt />
+                <div
+                  class="w-4/5 mx-auto student-cards-box absolute py-6"
+                  style="background-color:#ff8a5b;"
+                >
+                  <p>Jane Lau</p>
+                  <p>JEE- 95%</p>
+                </div>
+              </div>
+            </slide>
+            <slide class="w-full carousel-slide">
+              <div class="student-cards relative">
+                <img src="/images/student1.png" alt />
+                <div
+                  class="w-4/5 mx-auto student-cards-box absolute py-6"
+                  style="background-color:#ff8a5b;"
+                >
+                  <p>Jane Lau</p>
+                  <p>JEE- 95%</p>
+                </div>
+              </div>
+            </slide>
+            <slide class="w-full carousel-slide">
+              <div class="student-cards relative">
+                <img src="/images/student1.png" alt />
+                <div
+                  class="w-4/5 mx-auto student-cards-box absolute py-6"
+                  style="background-color:#ff8a5b;"
+                >
+                  <p>Jane Lau</p>
+                  <p>JEE- 95%</p>
+                </div>
+              </div>
+            </slide>
+            <slide class="w-full carousel-slide">
+              <div class="student-cards relative">
+                <img src="/images/student1.png" alt />
+                <div
+                  class="w-4/5 mx-auto student-cards-box absolute py-6"
+                  style="background-color:#ff8a5b;"
+                >
+                  <p>Jane Lau</p>
+                  <p>JEE- 95%</p>
+                </div>
+              </div>
+            </slide>
+          </carousel>
+        </client-only>
+
+        <!-- <div class="w-full lg:w-1/3 p-10 lg:pr-4">
           <div class="student-cards relative">
             <img src="/images/student1.png" alt />
             <div
@@ -46,15 +95,21 @@
               <p>JEE- 95%</p>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
 </template>
 <style lang="scss" scoped>
+
+.carousel-slide{
+  height: 391px;
+}
+
+
 h2 {
   color: #16246a;
-  font-weight: 800;
+  font-family: 'Gilroy-Bold';
   font-size: 4.5rem;
 }
 
@@ -71,6 +126,7 @@ p {
   opacity: 0.5;
   font-weight: 300;
 }
+
 
 .student-cards {
   img {

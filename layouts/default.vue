@@ -95,8 +95,16 @@ h2 {
   font-size: 4.5rem;
 }
 
-.VueCarousel-pagination {
-  position: absolute;
-  bottom: 18px;
+/* .topper-carousel{
+
+} */
+
+.header-carousel .VueCarousel-pagination {
+  position: absolute !important;
+  bottom: 18px !important;
+}
+
+.topper-carousel .VueCarousel-pagination {
+  /* display: none; */
 }
 </style>
