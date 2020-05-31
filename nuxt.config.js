@@ -21,6 +21,13 @@ export default {
             { src: "/js/jquery-3.4.1.slim.min.js" }
         ]
     },
+
+    server: {
+
+        host: '0.0.0.0'
+
+    },
+
     /*
      ** Customize the progress-bar color
      */

@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="w-full md:w-1/2 lg:w-2/5 relative">
-        <div class="hero-text absolute shadow-2xl">
+        <div class="hero-text md:absolute shadow-2xl">
           <h1>
             Imperial
           </h1>
@@ -132,10 +132,20 @@ export default class Index extends Vue {}
   }
 }
 
+
+
 .image {
   width: 100%;
   height: 650px;
 }
+
+@media screen and (max-width: 700px) {
+  
+.image {
+  height: 280px;
+}
+}
+
 
 .footer-text-left {
   h3 {

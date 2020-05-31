@@ -13,7 +13,7 @@
       <div class="flex flex-wrap justify-between">
         <client-only>
           <carousel
-            :per-page="3"
+            :perPageCustom="[[0, 1], [ 768, 2], [ 991, 3]]"
             :mouse-drag="false"
             :autoplay="true"
             class="topper-carousel"
