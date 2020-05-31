@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="w-full md:w-1/2 lg:w-1/2">
-        <img class="image" src="/images/taylor.png" alt="">
+        <img class="image object-cover" src="/images/taylor.png" alt="">
       </div>
       </div>
     </div>
