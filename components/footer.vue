@@ -16,7 +16,7 @@
       </div>
     </div>
     <div style="background-color:#16246a">
-      <div class="my-container flex flex-wrap py-20">
+      <div class="contact my-container flex flex-wrap py-20">
         <div class="w-full md:w-1/2 lg:w1/2 footer-text-left">
           <h3>IMPERIAL COACHING</h3>
           <p>Postmaster, Post Office</p>

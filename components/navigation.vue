@@ -15,7 +15,7 @@
           <nuxt-link
             class="link"
             v-scroll-to="{
-                el: '.courses',
+                el: '.slant',
                 duration: 1000,
             }"
             to="/"
@@ -23,7 +23,7 @@
           <nuxt-link
             class="link"
             v-scroll-to="{
-                el: '.events',
+                el: '.courses',
                 duration: 1000,
             }"
             to="/"
@@ -31,7 +31,7 @@
           <nuxt-link
             class="link"
             v-scroll-to="{
-                el: '.blog',
+                el: '.footer',
                 duration: 1000,
             }"
             to="/"

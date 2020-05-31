@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="my-container py-10">
+    <div class="my-container courses py-10">
       <div class="flex flex-wrap lg:py-32">
         <div class="w-full lg:w-1/3 lg:py-5">
           <img src="/images/certificate_icon.png" alt />
@@ -77,6 +77,10 @@
   </div>
 </template>
 <style lang="scss" scoped>
+.courses {
+  
+}
+
 h2 {
   color: #16246a;
   font-family: 'Gilroy-Bold';
