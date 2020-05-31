@@ -15,14 +15,6 @@
           <nuxt-link
             class="link"
             v-scroll-to="{
-                el: 'html',
-                duration: 1000,
-            }"
-            to="/"
-          >Home</nuxt-link>
-          <nuxt-link
-            class="link"
-            v-scroll-to="{
                 el: '.courses',
                 duration: 1000,
             }"
@@ -127,7 +119,6 @@
 
       <div class="mobile-nav opacity-hide">
         <div class="nav">
-          <div class="link" @click="goTo('html')" to="/">Home</div>
           <div class="link" @click="goTo('.courses')" to="/services">Courses</div>
           <div class="link" @click="goTo('.events')" to="/ourwork">Events</div>
           <div class="link" @click="goTo('.blog')" to="/">Blogs</div>
@@ -200,8 +191,9 @@
 }
 
 .nav-header a {
-  color: #fff;
+  color: #3b6df8;
   text-decoration: none;
+  font-family: Gilroy-bold;
 }
 
 .nav-header .link {
