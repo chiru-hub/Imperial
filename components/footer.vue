@@ -27,7 +27,7 @@
         <div class="w-full md:w-1/2 lg:w-1/2 footer-text-right">
           <h3>Subscribe to our newsletter</h3>
           <div class="mt-12 flex flex-wrap">
-            <input class="p-4 w-9/12" type="email" name id placeholder="Your email here" />
+            <input class="p-4 md:w-9/12 lg:9/12" type="email" name id placeholder="Your email here" />
             <button class="ml-5 px-16">Submit</button>
           </div>
           <div class="flex justify-around mt-16 w-full md:w-full lg:w-8/12">
