@@ -72,7 +72,8 @@ html {
   box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
   background-color: #d3deec;
 }
 
@@ -92,5 +93,10 @@ h2 {
   color: #16246a;
   font-weight: 800;
   font-size: 4.5rem;
+}
+
+.VueCarousel-pagination {
+  position: absolute;
+  bottom: 18px;
 }
 </style>

@@ -21,6 +21,7 @@
         "nuxt": "^2.0.0",
         "nuxt-property-decorator": "^2.7.2",
         "sass-loader": "^8.0.2",
+        "vue-carousel": "^0.18.0",
         "vue-scrollto": "^2.18.1"
     },
     "devDependencies": {

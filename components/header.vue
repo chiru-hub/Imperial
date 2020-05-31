@@ -4,7 +4,13 @@
     <div class="flex flex-wrap relative my-container">
       <div class="w-full md:w-1/2 lg:w-2/3">
         <div class="footer-content">
-          <img class="image object-cover" src="/images/taylor.png" alt />
+          <client-only>
+            <carousel :per-page="1" :mouse-drag="false" :autoplay="true" :loop="true" :autoplayTimeout="3000">
+              <slide><img class="image object-cover" src="/images/taylor.png" alt /></slide>
+              <slide><img class="image object-cover" src="/images/taylor.png" alt /></slide>
+            </carousel>
+          </client-only>
+          
         </div>
       </div>
       <div class="w-full md:w-1/2 lg:w-1/3 relative">
