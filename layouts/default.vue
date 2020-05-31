@@ -34,13 +34,13 @@ export default {
 
 <style>
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-Light";
   src: url("/font/Gilroy-Light.ttf");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-Medium";
   src: url("/font/Gilroy-Medium.ttf");
   font-weight: 400;
 }
@@ -52,13 +52,13 @@ export default {
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-SemiBold";
   src: url("/font/Gilroy-SemiBold.ttf");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-Bold";
   src: url("/font/Gilroy-Bold.ttf");
   font-weight: 800;
 }
@@ -70,6 +70,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+html, body{
+  background-color: #d3deec;
 }
 
 body {
