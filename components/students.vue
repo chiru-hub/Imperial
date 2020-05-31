@@ -9,13 +9,13 @@
           >Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis temporibus quo voluptas vel?</p>
         </div>
         <div class="w=full lg:w-1/3 my-10 lg:my-0">
-          <h2 class="text-center">10,000+ <br> students</h2>
+          <h2 class="text-center">2,000+ <br> toppers</h2>
           <p
             class="text-center w-11/12 lg:w-3/4 mx-auto"
           >Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis temporibus quo voluptas vel?</p>
         </div>
         <div class="w=full lg:w-1/3">
-          <h2 class="text-center">10,000+ <br> students</h2>
+          <h2 class="text-center">20+ <br> teachers</h2>
           <p
             class="text-center w-11/12 lg:w-3/4 mx-auto"
           >Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis temporibus quo voluptas vel?</p>
