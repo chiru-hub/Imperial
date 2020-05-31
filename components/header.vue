@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="w-full md:w-1/2 lg:w-2/5 relative">
-        <div class="hero-text absolute">
+        <div class="hero-text absolute shadow-2xl">
           <h1>
             Imperial
           </h1>
