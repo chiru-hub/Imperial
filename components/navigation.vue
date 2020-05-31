@@ -6,7 +6,7 @@
         style="display:flex; justify-content: space-between;align-items:center"
       >
         <nuxt-link to="/" style="display:flex; align-items: center">
-          <img src="/icon.png" style="height:100%;width:50px" />
+          <img src="/images/logo.png" style="height:100%;width:50px" />
           <h6
             style="margin-bottom: 0; font-family: 'bold'; font-size: 30px; margin-left: 10px"
           >IMP</h6>
@@ -36,14 +36,14 @@
             }"
             to="/"
           >About</nuxt-link>
-          <nuxt-link
+          <!-- <nuxt-link
             v-scroll-to="{
                 el: '.about',
                 duration: 1000,
             }"
             class="link"
             to="/"
-          >Testimonials</nuxt-link>
+          >Testimonials</nuxt-link> -->
           <nuxt-link
             v-scroll-to="{
                 el: '.contact',
@@ -119,10 +119,10 @@
 
       <div class="mobile-nav opacity-hide">
         <div class="nav">
-          <div class="link" @click="goTo('.courses')" to="/services">Courses</div>
-          <div class="link" @click="goTo('.events')" to="/ourwork">Events</div>
-          <div class="link" @click="goTo('.blog')" to="/">Blogs</div>
-          <div class="link" @click="goTo('.about')" to="/">About Us</div>
+          <div class="link" @click="goTo('.courses')" to="/services">Admission</div>
+          <div class="link" @click="goTo('.events')" to="/ourwork">Courses</div>
+          <div class="link" @click="goTo('.blog')" to="/">About</div>
+          <!-- <div class="link" @click="goTo('.about')" to="/">Testimonial</div> -->
           <div class="link" @click="goTo('.contact')" to="/">Contact Us</div>
         </div>
         <div @click="closeMenu" class="show-on-medium-and-down hamburger">
@@ -199,6 +199,7 @@
 .nav-header .link {
   padding: 8px 16px;
   font-size: 15px;
+  font-family: Gilroy-bold;
 }
 
 .mobile-nav .link {

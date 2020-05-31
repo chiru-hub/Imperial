@@ -13,10 +13,13 @@
               :autoplayTimeout="3000"
             >
               <slide>
-                <img class="image object-cover" src="/images/taylor.png" alt />
+                <img class="image object-cover" src="/images/caro1.jpg" alt />
               </slide>
               <slide>
-                <img class="image object-cover" src="/images/taylor.png" alt />
+                <img class="image object-cover" src="/images/caro2.jpg" alt />
+              </slide>
+              <slide>
+                <img class="image object-cover" src="/images/caro3.jpg" alt />
               </slide>
             </carousel>
           </client-only>
@@ -25,19 +28,19 @@
       <div class="w-full md:w-1/2 lg:w-2/5 relative">
         <div class="hero-text absolute">
           <h1>
-            Learn More
-            <br />With Us
+            Imperial
           </h1>
           <p
             class="pt-8"
-          >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+          >Transforming your Dreams into Reality. 
+Prepare for JEE/ NEET Exams with the best coaching Institute of Nagaland under the mentorship of top IIT and NIT faculties. With consecutive top results and performance over the years,we have emerged as the most sought after coaching institute in the state.</p>
           <button class="mt-10">Get Demo</button>
         </div>
 
         <div class="flex justify-around w-full md:w-full lg:w-8/12 social-logo">
           <img src="/images/whatsapp.png" alt />
-          <img src="/images/instagram.png" alt />
-          <img src="/images/facebook.png" alt />
+           <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank" ><img src="/images/instagram.png" alt /></a>
+           <a href="https://facebook.com/imperialcoachingcenter/" target="_blank"><img src="/images/facebook.png" alt /></a>
         </div>
       </div>
     </div>
