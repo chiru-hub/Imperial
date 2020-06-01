@@ -144,6 +144,14 @@ export default class Index extends Vue {}
 .image {
   // height: 280px;
 }
+
+.hero-text {
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
 }
 
 
