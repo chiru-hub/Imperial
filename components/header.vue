@@ -29,11 +29,11 @@
       <div class="w-full md:w-1/2 lg:w-2/5 relative">
         <div class="hero-text md:absolute shadow-2xl">
           <h1>
-            Imperial
+            Transforming your Dreams into Reality. 
           </h1>
           <p
             class="pt-8"
-          >Transforming your Dreams into Reality. 
+          >
 Prepare for JEE/ NEET Exams with the best coaching Institute of Nagaland under the mentorship of top IIT and NIT faculties. With consecutive top results and performance over the years,we have emerged as the most sought after coaching institute in the state.</p>
           <button class="mt-10">Get Demo</button>
         </div>

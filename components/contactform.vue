@@ -4,7 +4,7 @@
       <div class="flex flex-wrap py-10">
         <div class="w-full md:w-3/5 lg:w-3/5">
           <img class="mx-auto lg:ml-20" src="/images/call_icon.png" alt />
-          <h2 class="mt-10 lg:mt-24 text-center lg:text-left">Admission Annoucement</h2>
+          <h2 class="mt-10 lg:mt-24 text-center lg:text-left" style="font-family:Gilroy-bold">Admission Annoucement</h2>
         </div>
         <div class="w-full md:w-2/5 lg:w-2/5 form-active">
           <form class="px-10 py-12 lg:px-32" action="POST">
@@ -48,7 +48,7 @@ img {
   h2 {
     color: #ff5454;
     font-size: 3.5rem;
-    font-weight: 700;
+    font-family:Gilroy-bold;
   }
 
   input,
