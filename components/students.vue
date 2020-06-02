@@ -3,22 +3,22 @@
     <div class="my-container py-32">
       <div class="flex flex-wrap">
         <div class="w=full lg:w-1/3">
-          <p class="text-center">10,000+ students</p>
+          <p class="text-center">600+ Students</p>
           <p
             class="text-center w-11/12 lg:w-3/4 mx-auto"
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis temporibus quo voluptas vel?</p>
+          >Nurturing the aspirations of students over the years who dream about having a fulfilling career.</p>
         </div>
         <div class="w=full lg:w-1/3 my-10 lg:my-0">
-          <p class="text-center">10,000+ students</p>
+          <p class="text-center">70+ Rank Holders</p>
           <p
             class="text-center w-11/12 lg:w-3/4 mx-auto"
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis temporibus quo voluptas vel?</p>
+          >Proud to be among the top Coaching Institutes with brilliant academic performance in IIT-JEE, NEET and Boards.</p>
         </div>
         <div class="w=full lg:w-1/3">
-          <p class="text-center">10,000+ students</p>
+          <p class="text-center">16+ Faculties ( In-house and Visiting) </p>
           <p
             class="text-center w-11/12 lg:w-3/4 mx-auto"
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam perspiciatis temporibus quo voluptas vel?</p>
+          >Experienced  faculties from IITs and NITs to give the right  guidance to every Engineering & Medical aspirant.</p>
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@
         </div>
         <div class="w-full lg:w-1/2 self-center">
           <h2>Our Toppers -</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae perspiciatis veritatis nesciunt quibusdam, eligendi voluptates blanditiis incidunt quaerat autem aspernatur ad optio sit odio aliquam, architecto fuga corporis esse dolor!</p>
+          <p>Imperial have a legacy of being an excellent coaching Institute with a proven track record of producing top rank holders every year for various entrance exams. It's integrated teaching methodologies, qualified and highly trained faculty, a conducive and competitive environment among other factors contribute to it's excellent results each year.</p>
         </div>
       </div>
       <div class="flex flex-wrap justify-between">
