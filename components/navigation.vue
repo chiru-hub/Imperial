@@ -119,9 +119,9 @@
 
       <div class="mobile-nav opacity-hide">
         <div class="nav">
-          <div class="link" @click="goTo('.courses')" to="/services">Admission</div>
-          <div class="link" @click="goTo('.events')" to="/ourwork">Courses</div>
-          <div class="link" @click="goTo('.blog')" to="/">About</div>
+          <div class="link" @click="goTo('.enroll')" to="/services">Admission</div>
+          <div class="link" @click="goTo('.courses')" to="/ourwork">Courses</div>
+          <div class="link" @click="goTo('.contact')" to="/">About</div>
           <!-- <div class="link" @click="goTo('.about')" to="/">Testimonial</div> -->
           <div class="link" @click="goTo('.contact')" to="/">Contact Us</div>
         </div>
