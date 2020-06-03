@@ -2,7 +2,7 @@
   <div class="header">
     <Navigation />
     <div class="flex flex-wrap relative my-container">
-      <div class="w-full md:w-1/2 lg:w-3/5">
+      <div class="w-full lg:w-3/5">
         <div class="footer-content">
           <client-only>
             <carousel
@@ -26,22 +26,28 @@
           </client-only>
         </div>
       </div>
-      <div class="w-full md:w-1/2 lg:w-2/5 relative">
-        <div class="hero-text md:absolute shadow-2xl">
-          <h1>
-            Transforming your Dreams into Reality. 
-          </h1>
+      <div class="w-full md:w- lg:w-2/5 relative">
+        <div class="hero-text lg:absolute shadow-2xl">
+          <h1>Transforming your Dreams into Reality.</h1>
           <p
             class="pt-8"
-          >
-Prepare for JEE/ NEET Exams with the best coaching Institute of Nagaland under the mentorship of top IIT and NIT faculties. With consecutive top results and performance over the years,we have emerged as the most sought after coaching institute in the state.</p>
-          <button class="mt-10">Get Demo</button>
+          >Prepare for JEE/ NEET Exams with the best coaching Institute of Nagaland under the mentorship of top IIT and NIT faculties. With consecutive top results and performance over the years,we have emerged as the most sought after coaching institute in the state.</p>
+          <button
+            class="mt-10"
+            v-scroll-to="{
+                el: '.enroll',
+                duration: 1000,
+            }"
+          >Enroll</button>
         </div>
 
         <div class="flex justify-around w-full md:w-full lg:w-8/12 social-logo">
-          <img src="/images/whatsapp.png" alt />
-           <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank" ><img src="/images/instagram.png" alt /></a>
-           <a href="https://facebook.com/imperialcoachingcenter/" target="_blank"><img src="/images/facebook.png" alt /></a>
+          <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank">
+            <img src="/images/instagram.png" alt />
+          </a>
+          <a href="https://facebook.com/imperialcoachingcenter/" target="_blank">
+            <img src="/images/facebook.png" alt />
+          </a>
         </div>
       </div>
     </div>
@@ -132,28 +138,22 @@ export default class Index extends Vue {}
   }
 }
 
-
-
 .image {
   width: 100%;
   // height: 650px;
 }
 
 @media screen and (max-width: 700px) {
-  
-.image {
-  // height: 280px;
-}
+  .image {
+    // height: 280px;
+  }
 
-.hero-text {
-
-  h1 {
-    font-size: 40px;
+  .hero-text {
+    h1 {
+      font-size: 40px;
+    }
   }
 }
-
-}
-
 
 .footer-text-left {
   h3 {
@@ -190,4 +190,18 @@ export default class Index extends Vue {}
     height: 35px;
   }
 }
+
+
+@media screen and (max-width: 1450px) {
+  .hero-text {
+    h1 {
+      line-height: 40px;
+      font-size: 35px;
+    }
+  }
+}
+
+
+
+
 </style>

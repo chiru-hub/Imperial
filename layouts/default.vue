@@ -105,6 +105,6 @@ h2 {
 }
 
 .topper-carousel .VueCarousel-pagination {
-  /* display: none; */
+  display: none;
 }
 </style>

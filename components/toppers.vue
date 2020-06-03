@@ -26,7 +26,6 @@
                 <img src="/images/student1.png" alt />
                 <div
                   class="w-4/5 mx-auto student-cards-box absolute py-6"
-                  style="background-color:#ff8a5b;"
                 >
                   <p>Jane Lau</p>
                   <p>JEE- 95%</p>
@@ -38,7 +37,6 @@
                 <img src="/images/student1.png" alt />
                 <div
                   class="w-4/5 mx-auto student-cards-box absolute py-6"
-                  style="background-color:#ff8a5b;"
                 >
                   <p>Jane Lau</p>
                   <p>JEE- 95%</p>
@@ -50,7 +48,6 @@
                 <img src="/images/student1.png" alt />
                 <div
                   class="w-4/5 mx-auto student-cards-box absolute py-6"
-                  style="background-color:#ff8a5b;"
                 >
                   <p>Jane Lau</p>
                   <p>JEE- 95%</p>
@@ -62,7 +59,6 @@
                 <img src="/images/student1.png" alt />
                 <div
                   class="w-4/5 mx-auto student-cards-box absolute py-6"
-                  style="background-color:#ff8a5b;"
                 >
                   <p>Jane Lau</p>
                   <p>JEE- 95%</p>
@@ -154,5 +150,13 @@ p {
       text-align: center;
     }
   }
+}
+
+.topper-carousel .carousel-slide:nth-child(even)  .student-cards-box{
+  background-color:#ff8a5b
+}
+
+.topper-carousel .carousel-slide:nth-child(odd)  .student-cards-box{
+  background-color:#3f51b5
 }
 </style>

@@ -27,9 +27,10 @@
 <style lang="scss" scoped>
 
 
-@media screen and (min-width: $medium) {
+@media screen and (min-width: $large) {
   .slant {
     clip-path: polygon(0% 0%, 100% 20%, 100% 85%, 0 100%);
+     padding: 150px 0;
     -webkit-clip-path: polygon(0% 18%, 100% 0%, 100% 80%, 0% 100%);
   }
 }
@@ -56,4 +57,5 @@
     font-weight: 700;
   }
 }
+
 </style>

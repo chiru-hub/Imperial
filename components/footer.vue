@@ -31,9 +31,12 @@
             <button class="ml-5 px-16">Submit</button>
           </div>
           <div class="flex justify-around mt-16 w-full md:w-full lg:w-8/12">
-            <img src="/images/whatsapp.png" alt />
-            <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank" ><img src="/images/instagram.png" alt /></a>
-            <a href="https://facebook.com/imperialcoachingcenter/" target="_blank"><img src="/images/facebook.png" alt /></a>
+            <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank">
+              <img src="/images/instagram.png" alt />
+            </a>
+            <a href="https://facebook.com/imperialcoachingcenter/" target="_blank">
+              <img src="/images/facebook.png" alt />
+            </a>
           </div>
         </div>
       </div>
