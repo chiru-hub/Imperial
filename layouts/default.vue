@@ -34,13 +34,13 @@ export default {
 
 <style>
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-Light";
   src: url("/font/Gilroy-Light.ttf");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-Medium";
   src: url("/font/Gilroy-Medium.ttf");
   font-weight: 400;
 }
@@ -52,13 +52,13 @@ export default {
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-SemiBold";
   src: url("/font/Gilroy-SemiBold.ttf");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-Bold";
   src: url("/font/Gilroy-Bold.ttf");
   font-weight: 800;
 }
@@ -70,6 +70,11 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #d3deec;
 }
 
 body {
@@ -88,5 +93,23 @@ h2 {
   color: #16246a;
   font-weight: 800;
   font-size: 4.5rem;
+}
+
+/* .topper-carousel{
+
+} */
+
+
+.VueCarousel{
+  width: 100%;
+}
+
+.header-carousel .VueCarousel-pagination {
+  position: absolute !important;
+  bottom: 18px !important;
+}
+
+.topper-carousel .VueCarousel-pagination {
+  display: none;
 }
 </style>

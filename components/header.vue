@@ -1,16 +1,48 @@
 <template>
   <div class="header">
     <Navigation />
-    <div class="flex flex-wrap relative">
-      <div class="w-full md:w-1/2 lg:w-1/2">
-        <div class="footer-content mt-32 lg:w-8/12">
-          <img class="image" src="/images/taylor.png" alt />
+    <div class="flex flex-wrap relative my-container">
+      <div class="w-full lg:w-3/5">
+        <div class="footer-content">
+          <client-only>
+            <carousel
+              :per-page="1"
+              :mouse-drag="false"
+              :autoplay="true"
+              :loop="true"
+              class="header-carousel"
+              :autoplayTimeout="3000"
+            >
+              <slide>
+                <img class="image object-cover" src="/images/caro1.jpg" alt />
+              </slide>
+              <slide>
+                <img class="image object-cover" src="/images/caro2.jpg" alt />
+              </slide>
+              <slide>
+                <img class="image object-cover" src="/images/caro3.jpg" alt />
+              </slide>
+            </carousel>
+          </client-only>
         </div>
       </div>
-      <div class="w-full md:w-1/2 lg:w-1/2">
-        <p
-          class="px-20 py-16"
-        >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="w-full md:w-full lg:w-2/5 relative">
+        <div class="hero-text lg:absolute shadow-2xl">
+          <h1>Transforming your Dreams into Reality.</h1>
+          <p
+            class="pt-8"
+          >Prepare for JEE/ NEET Exams with the best coaching Institute of Nagaland under the mentorship of top IIT and NIT faculties. With consecutive top results and performance over the years,we have emerged as the most sought after coaching institute in the state.</p>
+          <button class="mt-10" v-scroll-to="{el: '.form-active',duration:1000 }">Enroll</button>
+        </div>
+
+        <div class="flex justify-around w-full md:w-full lg:w-8/12 social-logo">
+          <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank">
+            <img src="/images/instagram.png" alt />
+          </a>
+          <a href="https://facebook.com/imperialcoachingcenter/" target="_blank">
+            <img src="/images/facebook.png" alt />
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -43,6 +75,12 @@ export default class Index extends Vue {}
   font-weight: 800;
 }
 
+.header {
+  @apply my-12;
+  background-color: #d3deec;
+  padding-top: 80px;
+}
+
 .footer-content {
   box-shadow: 20px 20px 40px 0 rgba(11, 19, 57, 0.3);
   border-radius: 20px;
@@ -54,9 +92,61 @@ export default class Index extends Vue {}
   }
 }
 
+.social-logo {
+  @apply absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  img {
+    height: 30px;
+  }
+}
+
+.hero-text {
+  background-color: white;
+  left: -90px;
+  top: 0;
+  padding: 50px;
+  bottom: 0;
+  margin: 100px 0;
+
+  h1 {
+    line-height: 70px;
+    font-size: 56px;
+    color: #ff5454;
+    font-family: "Gilroy-Bold";
+  }
+
+  p {
+    font-family: "Gilroy";
+    color: #868686;
+  }
+
+  button {
+    background-color: #6458ff;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+}
+
 .image {
   width: 100%;
-  height: 560px;
+  // height: 650px;
+}
+
+@media screen and (max-width: 700px) {
+  .image {
+    // height: 280px;
+  }
+
+  .hero-text {
+    h1 {
+      font-size: 40px;
+    }
+  }
 }
 
 .footer-text-left {
@@ -92,6 +182,42 @@ export default class Index extends Vue {}
 
   img {
     height: 35px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-text {
+    width: 100%;
+    h1 {
+      line-height: 40px;
+      font-size: 35px;
+    }
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .hero-text {
+    margin: 60px 0;
+    // height: 400px;
+    h1 {
+      line-height: 40px;
+      font-size: 35px;
+    }
+  }
+
+  .social-logo {
+    bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1215px) and (max-width: 1449px) {
+  .hero-text {
+    margin: 160px 0;
+    height: 400px;
+    h1 {
+      line-height: 40px;
+      font-size: 35px;
+    }
   }
 }
 </style>

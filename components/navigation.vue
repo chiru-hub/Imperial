@@ -6,24 +6,16 @@
         style="display:flex; justify-content: space-between;align-items:center"
       >
         <nuxt-link to="/" style="display:flex; align-items: center">
-          <img src="/icon.png" style="height:100%;width:50px" />
+          <img class="site-logo" src="/images/logo-black.png" style="height:100%;width:50px" />
           <h6
-            style="margin-bottom: 0; font-family: 'bold'; font-size: 30px; margin-left: 10px"
-          >IMP</h6>
+            style="margin-bottom: 0; font-family: 'bold'; font-size: 20px; margin-left: 10px;line-height: 22px"
+          >Imperial <br> Coaching</h6>
         </nuxt-link>
         <div class="nav-link hide-on-med-and-down">
           <nuxt-link
             class="link"
             v-scroll-to="{
-                el: 'html',
-                duration: 1000,
-            }"
-            to="/"
-          >Home</nuxt-link>
-          <nuxt-link
-            class="link"
-            v-scroll-to="{
-                el: '.courses',
+                el: '.slant',
                 duration: 1000,
             }"
             to="/"
@@ -31,7 +23,7 @@
           <nuxt-link
             class="link"
             v-scroll-to="{
-                el: '.events',
+                el: '.courses',
                 duration: 1000,
             }"
             to="/"
@@ -39,22 +31,22 @@
           <nuxt-link
             class="link"
             v-scroll-to="{
-                el: '.blog',
+                el: '.footer',
                 duration: 1000,
             }"
             to="/"
           >About</nuxt-link>
-          <nuxt-link
+          <!-- <nuxt-link
             v-scroll-to="{
                 el: '.about',
                 duration: 1000,
             }"
             class="link"
             to="/"
-          >Testimonials</nuxt-link>
+          >Testimonials</nuxt-link> -->
           <nuxt-link
             v-scroll-to="{
-                el: '.contact',
+                el: '.enroll',
                 duration: 1000,
             }"
             class="link"
@@ -82,7 +74,7 @@
             <g>
               <g>
                 <path
-                  fill="white"
+                  fill="black"
                   d="M491.318,235.318H20.682C9.26,235.318,0,244.577,0,256s9.26,20.682,20.682,20.682h470.636
 			c11.423,0,20.682-9.259,20.682-20.682C512,244.578,502.741,235.318,491.318,235.318z"
                 />
@@ -91,7 +83,7 @@
             <g>
               <g>
                 <path
-                  fill="white"
+                  fill="black"
                   d="M491.318,78.439H20.682C9.26,78.439,0,87.699,0,99.121c0,11.422,9.26,20.682,20.682,20.682h470.636
 			c11.423,0,20.682-9.26,20.682-20.682C512,87.699,502.741,78.439,491.318,78.439z"
                 />
@@ -100,7 +92,7 @@
             <g>
               <g>
                 <path
-                  fill="white"
+                  fill="black"
                   d="M491.318,392.197H20.682C9.26,392.197,0,401.456,0,412.879s9.26,20.682,20.682,20.682h470.636
 			c11.423,0,20.682-9.259,20.682-20.682S502.741,392.197,491.318,392.197z"
                 />
@@ -127,11 +119,10 @@
 
       <div class="mobile-nav opacity-hide">
         <div class="nav">
-          <div class="link" @click="goTo('html')" to="/">Home</div>
-          <div class="link" @click="goTo('.courses')" to="/services">Courses</div>
-          <div class="link" @click="goTo('.events')" to="/ourwork">Events</div>
-          <div class="link" @click="goTo('.blog')" to="/">Blogs</div>
-          <div class="link" @click="goTo('.about')" to="/">About Us</div>
+          <div class="link" @click="goTo('.courses')" to="/services">Admission</div>
+          <div class="link" @click="goTo('.events')" to="/ourwork">Courses</div>
+          <div class="link" @click="goTo('.blog')" to="/">About</div>
+          <!-- <div class="link" @click="goTo('.about')" to="/">Testimonial</div> -->
           <div class="link" @click="goTo('.contact')" to="/">Contact Us</div>
         </div>
         <div @click="closeMenu" class="show-on-medium-and-down hamburger">
@@ -176,7 +167,7 @@
   color: white !important;
 }
 .nav-header.darkHeader .menu-svg {
-  fill: white;
+  fill: black;
 }
 
 .nav-header.white {
@@ -200,13 +191,15 @@
 }
 
 .nav-header a {
-  color: #fff;
+  color: #3b6df8;
   text-decoration: none;
+  font-family: Gilroy-bold;
 }
 
 .nav-header .link {
   padding: 8px 16px;
   font-size: 15px;
+  font-family: Gilroy-bold;
 }
 
 .mobile-nav .link {
@@ -346,9 +339,13 @@ export default {
           //clearHeader, not clearheader - caps H
           $(".nav-header").removeClass("darkHeader");
           $("#moveup").removeClass("show");
+          $(".menu-svg path").css('fill', 'black')
+          $(".site-logo").attr('src', '/images/logo-black.png')
         } else if (scroll > 0) {
           $(".nav-header").addClass("darkHeader");
+          $(".menu-svg path").css('fill', 'white')
           $("#moveup").addClass("show");
+          $(".site-logo").attr('src', '/images/logo-white.png')
         }
       }else{
           $(".nav-header").addClass("darkHeader");

@@ -11,7 +11,7 @@ export default {
             { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
             {
                 rel: "stylesheet",
                 href: "/css/framework.css?v=1"
@@ -21,6 +21,34 @@ export default {
             { src: "/js/jquery-3.4.1.slim.min.js" }
         ]
     },
+
+    // server: {
+
+    //     host: '0.0.0.0'
+
+    // },
+
+    pwa: {
+        manifest: {
+            name: 'Imperial Coaching',
+            description: "Imperial Coaching",
+            lang: 'en',
+            display: "standalone",
+            background_color: "#3b6df8",
+            theme_color: "#3b6df8"
+        },
+        workbox: {
+            runtimeCaching: [{
+                // Should be a regex string. Compiles into new RegExp('https://my-cdn.com/.*')
+                urlPattern: 'https://imperialcoaching/.*',
+                // Defaults to `networkFirst` if omitted
+                // handler: 'networkFirst',
+                // Defaults to `GET` if omitted
+                // method: 'GET'
+            }]
+        }
+    },
+
     /*
      ** Customize the progress-bar color
      */
@@ -36,7 +64,9 @@ export default {
     /*
      ** Plugins to load before mounting the App
      */
-    plugins: [],
+    plugins: [
+        { src: '~/plugins/carousel.js', ssr: false }
+    ],
     /*
      ** Nuxt.js dev-modules
      */
