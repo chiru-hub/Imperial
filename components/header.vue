@@ -26,28 +26,21 @@
           </client-only>
         </div>
       </div>
-      <div class="w-full md:w- lg:w-2/5 relative">
+      <div class="w-full md:w-1/2 lg:w-2/5 relative">
         <div class="hero-text lg:absolute shadow-2xl">
-          <h1>Transforming your Dreams into Reality.</h1>
+          <h1>
+            Transforming your Dreams into Reality. 
+          </h1>
           <p
             class="pt-8"
-          >Prepare for JEE/ NEET Exams with the best coaching Institute of Nagaland under the mentorship of top IIT and NIT faculties. With consecutive top results and performance over the years,we have emerged as the most sought after coaching institute in the state.</p>
-          <button
-            class="mt-10"
-            v-scroll-to="{
-                el: '.enroll',
-                duration: 1000,
-            }"
-          >Enroll</button>
+          >
+Prepare for JEE/ NEET Exams with the best coaching Institute of Nagaland under the mentorship of top IIT and NIT faculties. With consecutive top results and performance over the years,we have emerged as the most sought after coaching institute in the state.</p>
+          <button class="mt-10" v-scroll-to="{el: '.form-active',duration:1000 }">Enroll</button>
         </div>
 
         <div class="flex justify-around w-full md:w-full lg:w-8/12 social-logo">
-          <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank">
-            <img src="/images/instagram.png" alt />
-          </a>
-          <a href="https://facebook.com/imperialcoachingcenter/" target="_blank">
-            <img src="/images/facebook.png" alt />
-          </a>
+           <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank" ><img src="/images/instagram.png" alt /></a>
+           <a href="https://facebook.com/imperialcoachingcenter/" target="_blank"><img src="/images/facebook.png" alt /></a>
         </div>
       </div>
     </div>

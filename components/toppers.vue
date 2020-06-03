@@ -7,7 +7,7 @@
         </div>
         <div class="w-full lg:w-1/2 self-center">
           <h2>Our Toppers -</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae perspiciatis veritatis nesciunt quibusdam, eligendi voluptates blanditiis incidunt quaerat autem aspernatur ad optio sit odio aliquam, architecto fuga corporis esse dolor!</p>
+          <p>Imperial have a legacy of being an excellent coaching Institute with a proven track record of producing top rank holders every year for various entrance exams. It's integrated teaching methodologies, qualified and highly trained faculty, a conducive and competitive environment among other factors contribute to it's excellent results each year.</p>
         </div>
       </div>
       <div class="flex flex-wrap justify-between">
@@ -23,34 +23,39 @@
           >
             <slide class="w-full carousel-slide">
               <div class="student-cards relative">
-                <img src="/images/student1.png" alt />
+                <img src="/images/topper1.jpeg" alt />
                 <div
                   class="w-4/5 mx-auto student-cards-box absolute py-6"
                 >
-                  <p>Jane Lau</p>
-                  <p>JEE- 95%</p>
+                  <p>Raj Paul</p>
+                  <p>3rd rank(Science)</p>
+                  <p>Roll No-204813231 <br/> Percentage 91.80%</p>
                 </div>
               </div>
             </slide>
             <slide class="w-full carousel-slide">
               <div class="student-cards relative">
-                <img src="/images/student1.png" alt />
+                <img src="/images/topper2.jpeg" alt />
                 <div
                   class="w-4/5 mx-auto student-cards-box absolute py-6"
                 >
-                  <p>Jane Lau</p>
-                  <p>JEE- 95%</p>
+                  <p>Sangerbenla Txudir</p>
+                  <p>4th Rank (Science)</p>
+                  <p>Roll no- 204809231 <br/>
+                  Percentage - 90.20%</p>
                 </div>
               </div>
             </slide>
             <slide class="w-full carousel-slide">
               <div class="student-cards relative">
-                <img src="/images/student1.png" alt />
+                <img src="/images/topper3.jpeg" alt />
                 <div
                   class="w-4/5 mx-auto student-cards-box absolute py-6"
                 >
-                  <p>Jane Lau</p>
-                  <p>JEE- 95%</p>
+                  <p>Anushka Bhattacharjee</p>
+                  <p>1st rank (Science)</p>
+                  <p>Roll no- 204809005 <br/>
+                  Percentage - 95.20.20%</p>
                 </div>
               </div>
             </slide>
@@ -131,23 +136,26 @@ p {
 
   &-box {
     border-radius: 20px;
-    bottom: -40px;
+    bottom: -60px;
     left: 0px;
     right: 0px;
     box-shadow: -18px 18px 30px 0 rgba(0, 0, 0, 0.16);
 
     p:first-child {
+      font-size: 18px;
       color: white;
-      font-weight: 500;
-      opacity: 0.9;
+      font-family: Gilroy;
+      opacity: 1;
       text-align: center;
     }
 
     p {
-      font-weight: 700;
+      font-family: Gilroy-bold;
       color: white;
-      opacity: 1;
+      opacity: .9;
       text-align: center;
+      font-size: 13px;
+      line-height: 1.4;
     }
   }
 }

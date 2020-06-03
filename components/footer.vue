@@ -4,14 +4,45 @@
       <div class="flex flex-wrap relative">
         <div class="w-full md:w-1/2 lg:w-2/5">
           <p class="heading text-center">About Us</p>
-          <div class="footer-content mt-32 md:absolute lg:w-3/5">
+          <div class="footer-content mt-32 md:absolute lg:w-3/5" style="z-index:1">
             <p
               class="px-20 py-16"
             >Imperial Institute is Nagaland's best coaching centre for IIT-JEE, NEET and Boards Preparation ( CBSE + NBSE). Equipped with state -of-the-art infrastructure, smart classroom, laboratory and library , we are the only Institute to provide hand crafted exclusive study materials with copyright. Prepare for your exams with the best brains of the state and let faculties from IITs and NITs help you reach your goals at Imperial.</p>
           </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-3/5">
-          <img class="image object-cover" src="/images/taylor.png" alt />
+          <client-only>
+            <carousel
+              :per-page="1"
+              :mouse-drag="false"
+              :autoplay="true"
+              :loop="true"
+              class=""
+              :autoplayTimeout="3000"
+            >
+              <slide>
+                <img class="image object-contain" src="/images/about-caro1.jpeg" alt />
+              </slide>
+              <slide>
+                <img class="image object-contain" src="/images/about-caro2.jpeg" alt />
+              </slide>
+              <slide>
+                <img class="image object-contain" src="/images/about-caro3.jpeg" alt />
+              </slide>
+              <slide>
+                <img class="image object-contain" src="/images/about-caro4.jpeg" alt />
+              </slide>
+              <slide>
+                <img class="image object-contain" src="/images/about-caro5.jpeg" alt />
+              </slide>
+              <slide>
+                <img class="image object-contain" src="/images/about-caro6.jpeg" alt />
+              </slide>
+              <slide>
+                <img class="image object-contain" src="/images/about-caro7.jpeg" alt />
+              </slide>
+            </carousel>
+          </client-only>
         </div>
       </div>
     </div>
@@ -31,12 +62,8 @@
             <button class="ml-5 px-16">Submit</button>
           </div>
           <div class="flex justify-around mt-16 w-full md:w-full lg:w-8/12">
-            <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank">
-              <img src="/images/instagram.png" alt />
-            </a>
-            <a href="https://facebook.com/imperialcoachingcenter/" target="_blank">
-              <img src="/images/facebook.png" alt />
-            </a>
+            <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank" ><img src="/images/instagram.png" alt /></a>
+            <a href="https://facebook.com/imperialcoachingcenter/" target="_blank"><img src="/images/facebook.png" alt /></a>
           </div>
         </div>
       </div>
