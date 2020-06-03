@@ -339,9 +339,11 @@ export default {
           //clearHeader, not clearheader - caps H
           $(".nav-header").removeClass("darkHeader");
           $("#moveup").removeClass("show");
+          $(".menu-svg path").css('fill', 'black')
           $(".site-logo").attr('src', '/images/logo-black.png')
         } else if (scroll > 0) {
           $(".nav-header").addClass("darkHeader");
+          $(".menu-svg path").css('fill', 'white')
           $("#moveup").addClass("show");
           $(".site-logo").attr('src', '/images/logo-white.png')
         }

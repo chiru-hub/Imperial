@@ -99,6 +99,11 @@ h2 {
 
 } */
 
+
+.VueCarousel{
+  width: 100%;
+}
+
 .header-carousel .VueCarousel-pagination {
   position: absolute !important;
   bottom: 18px !important;

@@ -10,7 +10,7 @@
           <p>Imperial have a legacy of being an excellent coaching Institute with a proven track record of producing top rank holders every year for various entrance exams. It's integrated teaching methodologies, qualified and highly trained faculty, a conducive and competitive environment among other factors contribute to it's excellent results each year.</p>
         </div>
       </div>
-      <div class="flex flex-wrap justify-between">
+      <div class="flex flex-wrap justify-between md:pt-10">
         <client-only>
           <carousel
             :perPageCustom="[[0, 1], [ 768, 2], [ 991, 3]]"

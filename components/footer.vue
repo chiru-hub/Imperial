@@ -2,15 +2,15 @@
   <div>
     <div class="footer">
       <div class="flex flex-wrap relative">
-        <div class="w-full md:w-1/2 lg:w-2/5">
+        <div class="w-full lg:w-2/5">
           <p class="heading text-center">About Us</p>
-          <div class="footer-content mt-32 md:absolute lg:w-3/5" style="z-index:1">
+          <div class="footer-content mt-32 lg:absolute lg:w-3/5" style="z-index:1">
             <p
               class="px-20 py-16"
             >Imperial Institute is Nagaland's best coaching centre for IIT-JEE, NEET and Boards Preparation ( CBSE + NBSE). Equipped with state -of-the-art infrastructure, smart classroom, laboratory and library , we are the only Institute to provide hand crafted exclusive study materials with copyright. Prepare for your exams with the best brains of the state and let faculties from IITs and NITs help you reach your goals at Imperial.</p>
           </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-3/5">
+        <div class="w-full  lg:w-3/5">
           <client-only>
             <carousel
               :per-page="1"
@@ -97,7 +97,7 @@
 
 .image {
   width: 100%;
-  height: 740px;
+  // height: 740px;
 }
 
 .footer-text-left {
