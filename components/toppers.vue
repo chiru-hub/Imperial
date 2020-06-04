@@ -59,7 +59,7 @@
                 </div>
               </div>
             </slide>
-            <slide class="w-full carousel-slide">
+            <!-- <slide class="w-full carousel-slide">
               <div class="student-cards relative">
                 <img src="/images/student1.png" alt />
                 <div
@@ -69,7 +69,7 @@
                   <p>JEE- 95%</p>
                 </div>
               </div>
-            </slide>
+            </slide> -->
           </carousel>
         </client-only>
 

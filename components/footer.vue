@@ -49,6 +49,7 @@
     <div style="background-color:#16246a">
       <div class="contact my-container flex flex-wrap py-20">
         <div class="w-full flex flex-wrap md:w-1/2 lg:w1/2 footer-text-left text-center">
+        <h3 class="w-full">Imperial Coaching</h3>
           <div class="w-full md:w1/2 lg:w-1/2">
             <p>DIMAPUR</p>
             <p>2nd FLoor, Jakhalu Complex,<br/> Army Supply Road Dhobinala,<br/> Dimapur-787112 <br/> +91 8787-662255</p>
@@ -65,8 +66,8 @@
             <button class="ml-5 px-16">Submit</button>
           </div>
           <div class="flex justify-around mt-16 w-full md:w-full lg:w-8/12">
-            <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank" ><img src="/images/instagram.png" alt /></a>
             <a href="https://facebook.com/imperialcoachingcenter/" target="_blank"><img src="/images/facebook.png" alt /></a>
+            <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank" ><img src="/images/instagram.png" alt /></a>
           </div>
         </div>
       </div>

@@ -22,6 +22,9 @@
               <slide>
                 <img class="image object-cover" src="/images/caro3.jpg" alt />
               </slide>
+              <slide>
+                <img class="image object-cover" src="/images/caro4.jpg" alt />
+              </slide>
             </carousel>
           </client-only>
         </div>
@@ -36,11 +39,11 @@
         </div>
 
         <div class="flex justify-around w-full md:w-full lg:w-8/12 social-logo">
+        <a href="https://facebook.com/imperialcoachingcenter/" target="_blank">
+            <img src="/images/facebook.png" alt />
+          </a>
           <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank">
             <img src="/images/instagram.png" alt />
-          </a>
-          <a href="https://facebook.com/imperialcoachingcenter/" target="_blank">
-            <img src="/images/facebook.png" alt />
           </a>
         </div>
       </div>
