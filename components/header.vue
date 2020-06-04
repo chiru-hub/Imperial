@@ -108,7 +108,7 @@ export default class Index extends Vue {}
 
 .hero-text {
   background-color: white;
-  left: -90px;
+  left: -10px;
   top: 0;
   padding: 50px;
   bottom: 0;
