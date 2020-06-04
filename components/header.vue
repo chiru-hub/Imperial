@@ -11,7 +11,7 @@
               :autoplay="true"
               :loop="true"
               class="header-carousel"
-              :autoplayTimeout="3000"
+              :autoplayTimeout="4000"
             >
               <slide>
                 <img class="image object-cover" src="/images/caro1.jpg" alt />
@@ -33,7 +33,7 @@
         <div class="hero-text lg:absolute shadow-2xl">
           <h1>Transforming your Dreams into Reality.</h1>
           <p
-            class="pt-8"
+            class="pt-8 lg:pt-24"
           >Prepare for JEE/ NEET Exams with the best coaching Institute of Nagaland under the mentorship of top IIT and NIT faculties. With consecutive top results and performance over the years,we have emerged as the most sought after coaching institute in the state.</p>
           <button class="mt-10" v-scroll-to="{el: '.form-active',duration:1000 }">Enroll</button>
         </div>
@@ -116,7 +116,7 @@ export default class Index extends Vue {}
 
   h1 {
     line-height: 70px;
-    font-size: 56px;
+    font-size: 45px;
     color: #ff5454;
     font-family: "Gilroy-Bold";
   }

@@ -4,7 +4,7 @@
       <div class="flex flex-wrap relative">
         <div class="w-full lg:w-2/5">
           <p class="heading text-center">About Us</p>
-          <div class="footer-content mt-32 lg:absolute lg:w-3/5" style="z-index:1">
+          <div class="footer-content mt:10 md:mt-16 lg:mt-32 lg:absolute lg:w-5/12" style="z-index:1">
             <p
               class="px-20 py-16"
             >Imperial Institute is Nagaland's best coaching centre for IIT-JEE, NEET and Boards Preparation ( CBSE + NBSE). Equipped with state -of-the-art infrastructure, smart classroom, laboratory and library , we are the only Institute to provide hand crafted exclusive study materials with copyright. Prepare for your exams with the best brains of the state and let faculties from IITs and NITs help you reach your goals at Imperial.</p>
@@ -48,8 +48,8 @@
     </div>
     <div style="background-color:#16246a">
       <div class="contact my-container flex flex-wrap py-20">
-        <div class="w-full flex flex-wrap md:w-1/2 lg:w1/2 footer-text-left text-center">
-        <h3 class="w-full">Imperial Coaching</h3>
+        <div class="w-full flex flex-wrap md:w-1/2 lg:w1/2 footer-text-left text-left">
+        <h3 class="w-full text-center md:text-left">Imperial Coaching</h3>
           <div class="w-full md:w1/2 lg:w-1/2">
             <p>DIMAPUR</p>
             <p>2nd FLoor, Jakhalu Complex,<br/> Army Supply Road Dhobinala,<br/> Dimapur-787112 <br/> +91 8787-662255</p>
@@ -92,7 +92,7 @@
   background-color: white;
 
   p {
-    color: #d2d2d2;
+    color: #42353591;
     line-height: 1.8;
     font-family: "Gilroy-Light";
     font-size: 25px;
@@ -116,6 +116,19 @@
     font-weight: 400;
     line-height: 1.6;
   }
+}
+
+@media (max-width: 600px) {
+  .heading {
+      font-size: 47px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  .heading {
+    font-size: 80px;
+  }
+  
 }
 
 .footer-text-right {
