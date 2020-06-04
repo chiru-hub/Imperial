@@ -6,7 +6,7 @@
           <img src="/images/certificate_icon.png" alt />
         </div>
         <div class="w-full lg:w-1/2 self-center">
-          <h2>Courses -</h2>
+          <h2 class="text-center lg:text-left">Courses -</h2>
           <p>At Imperial Institute , we offer our students a very holistic curriculum backed by an advance teaching methodology, result-oriented test preparations, and expert faculty guidance to enhance the conceptual knowledge base.</p>
         </div>
       </div>

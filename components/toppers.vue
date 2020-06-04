@@ -6,7 +6,7 @@
           <img src="/images/filled_outline.png" alt />
         </div>
         <div class="w-full lg:w-1/2 self-center">
-          <h2>Our Toppers -</h2>
+          <h2 class="text-center lg:text-left">Our Toppers -</h2>
           <p>Imperial have a legacy of being an excellent coaching Institute with a proven track record of producing top rank holders every year for various entrance exams. It's integrated teaching methodologies, qualified and highly trained faculty, a conducive and competitive environment among other factors contribute to it's excellent results each year.</p>
         </div>
       </div>
@@ -55,7 +55,7 @@
                   <p>Anushka Bhattacharjee</p>
                   <p>1st rank (Science)</p>
                   <p>Roll no- 204809005 <br/>
-                  Percentage - 95.20.20%</p>
+                  Percentage - 95.20%</p>
                 </div>
               </div>
             </slide>

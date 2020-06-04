@@ -13,19 +13,20 @@
             <input class="w-full mb-5" type="email" name="email" id placeholder="Email Address" />
             <div class="flex mb-5">
               <select class="w-1/2" name="classes" id>
-                <option value="iit">IIT</option>
-                <option value="iit">IIT</option>
-                <option value="iit">IIT</option>
+                <option value="iit">Class X</option>
+                <option value="iit">Class XI</option>
+                <option value="iit">Class XII</option>
               </select>
               <select class="w-1/2 ml-5" name="classes" id>
-                <option value="iit">IIT</option>
-                <option value="iit">IIT</option>
-                <option value="iit">IIT</option>
+                <option value="iit">NEET</option>
+                <option value="iit">JEE</option>
+                <option value="iit">NBSE</option>
+                <option value="iit">CBSE</option>
               </select>
             </div>
 
             <input class="w-full mb-5" type="text" name id placeholder="Select your time to call" />
-            <textarea name id cols="30" rows="10">Your Message</textarea>
+            <textarea name id cols="30" rows="10" placeholder="Your Message"></textarea>
             <button class="mt-5">Submit</button>
           </form>
         </div>
