@@ -6,10 +6,7 @@
         style="display:flex; justify-content: space-between;align-items:center"
       >
         <nuxt-link to="/" style="display:flex; align-items: center">
-          <img class="site-logo" src="/images/logo-black.png" style="height:100%;width:50px" />
-          <h6
-            style="margin-bottom: 0; font-family: 'bold'; font-size: 20px; margin-left: 10px;line-height: 22px"
-          >Imperial <br> Coaching</h6>
+          <img class="site-logo" src="/images/logo-black.png" />
         </nuxt-link>
         <div class="nav-link hide-on-med-and-down">
           <nuxt-link
@@ -300,6 +297,19 @@
 .opacity-hide {
     opacity: 0;
     visibility: hidden;
+}
+
+.site-logo {
+  height:100%;
+  width:200px;
+}
+
+@media (max-width: 700px) {
+  .site-logo{
+    width:150px;
+    height: auto;
+  }
+  
 }
 </style>
 
