@@ -4,6 +4,7 @@
       <div class="flex flex-wrap py-10">
         <div class="w-full md:w-3/5 lg:w-3/5">
           <img class="mx-auto lg:ml-20" src="/images/call_icon.png" alt />
+          <img class="lg:mt-12 object-contain" src="/images/scholarship.png" alt="">
         </div>
         <div class="w-full md:w-2/5 lg:w-2/5 form-active">
           <form class="px-10 py-12 lg:px-32" action="POST">
