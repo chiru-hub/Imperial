@@ -3,8 +3,32 @@
     <div class="my-container">
       <div class="flex flex-wrap py-10">
         <div class="w-full md:w-3/5 lg:w-3/5">
-          <img class="mx-auto lg:ml-20" src="/images/call_icon.png" alt />
-          <img class="lg:mt-12 object-contain" src="/images/scholarship.png" alt="">
+          <div class="flex flex-wrap items-end">
+            <img class="mx-auto lg:mx-none " src="/images/call_icon.png" alt />
+            <p class="sship lg:w-1/2">Scholarship Announcement</p>
+          </div>         
+          <div class="w-full lg:p-5">
+            <client-only>
+                <carousel
+                  :per-page="1"
+                  :mouse-drag="false"
+                  :autoplay="true"
+                  :loop="true"
+                  class=""
+                  :autoplayTimeout="3000"
+                >
+                <slide>
+                  <img class="object-contain" src="/images/form-caro1.jpg" alt="">
+                </slide>
+                <slide>
+                  <img class="object-contain" src="/images/form-caro2.jpg" alt="">
+                </slide>
+                <slide>
+                  <img class="object-contain" src="/images/form-caro3.jpg" alt="">
+                </slide>
+              </carousel>
+            </client-only>
+          </div>
         </div>
         <div class="w-full md:w-2/5 lg:w-2/5 form-active">
           <form class="px-10 py-12 lg:px-32" action="POST">
@@ -72,5 +96,13 @@ img {
     border-radius: 5px;
     font-size: 18px;
   }
+}
+
+.sship {
+  @apply text-center;
+  font-size: 47px;
+  color: #16246a;
+  font-family: Gilroy-bold;
+  line-height: 1.2;
 }
 </style>
