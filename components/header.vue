@@ -29,7 +29,7 @@
           </client-only>
         </div>
       </div>
-      <div class="w-full md:w-full lg:w-2/5 relative">
+      <div class="w-full md:w-full lg:w-2/5 relative overflow-x-hidden">
         <div class="hero-text lg:absolute shadow-2xl">
           <h1>Transforming your Dreams into Reality.</h1>
           <p
