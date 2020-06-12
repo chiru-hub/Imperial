@@ -75,6 +75,7 @@ html {
 html,
 body {
   background-color: #d3deec;
+  overflow-x: hidden;
 }
 
 body {

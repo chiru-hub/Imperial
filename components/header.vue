@@ -22,9 +22,9 @@
               <slide>
                 <img class="image object-cover" src="/images/caro3.jpg" alt />
               </slide>
-              <slide>
+              <!-- <slide>
                 <img class="image object-cover" src="/images/caro4.jpg" alt />
-              </slide>
+              </slide> -->
             </carousel>
           </client-only>
         </div>
