@@ -1,33 +1,16 @@
 <template>
   <div>
-    <Header />
-    <Students />
-    <ContactForm />
-    <Courses />
-    <Toppers />
+    <Navigation />   
     <nuxt />
-    <Footer />
   </div>
 </template>
 
 <script>
-import Header from "@/components/header.vue";
-
-import ContactForm from "@/components/contactform.vue";
-// import Navigation from "@/components/navigation.vue";
-import Students from "@/components/students.vue";
-import Courses from "@/components/courses.vue";
-import Toppers from "@/components/toppers.vue";
-import Footer from "@/components/footer.vue";
+import Navigation from "@/components/navigation.vue"
 
 export default {
   components: {
-    Header,
-    ContactForm,
-    Students,
-    Courses,
-    Toppers,
-    Footer
+    Navigation
   }
 };
 </script>

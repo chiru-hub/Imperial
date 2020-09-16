@@ -1,6 +1,5 @@
 <template>
   <div class="header">
-    <Navigation />
     <div class="flex flex-wrap relative my-container">
       <div class="w-full lg:w-3/5">
         <div class="footer-content">
@@ -63,11 +62,11 @@ import {
   Emit
 } from "nuxt-property-decorator";
 
-@Component({
-  components: {
-    Navigation: () => import("@/components/navigation.vue")
-  }
-})
+// @Component({
+//   components: {
+//     Navigation: () => import("@/components/navigation.vue")
+//   }
+// })
 export default class Index extends Vue {}
 </script>
 
