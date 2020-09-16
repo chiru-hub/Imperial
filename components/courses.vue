@@ -21,12 +21,9 @@
               >60 days classroom program with small batch (only 30 students). The right mix of classes, problem solving and doubt clearing sessions.</p>
               <div
                 style="bottom: -40px;left: 0px;right: 0px;"
-                class="mt-8 absolute buttons"
-                v-scroll-to="{
-                el: '.contact',
-                duration: 1000,
-            }"
-              >Enroll</div>
+                class="mt-8 absolute buttons cursor-pointer"
+                onclick="window.location='/crashcourse'"
+              >Learn More</div>
             </div>
           </div>
         </div>
@@ -43,12 +40,9 @@
               >Holistic program for students moving from Class X to XI to prepare students for both JEE /NEET and School Curriculum.Additional help for XII Board Exams.</p>
               <div
                 style="bottom: -40px;left: 0px;right: 0px;"
-                class="mt-8 absolute buttons"
-                v-scroll-to="{
-                el: '.contact',
-                duration: 1000,
-            }"
-              >Enroll</div>
+                class="mt-8 absolute buttons cursor-pointer"
+                onclick="window.location='/twoyear'"
+              >Learn More</div>
             </div>
           </div>
         </div>
@@ -64,12 +58,9 @@
             >Regular mentor classes for students moving from Class XI to XII. Advance level guidance for JEE / NEET and School Curriculum (Physics, Chemistry ,Mathematics & Biology).</p>
             <div
               style="bottom: -40px;left: 0px;right: 0px;"
-              class="mt-8 absolute buttons"
-              v-scroll-to="{
-                el: '.contact',
-                duration: 1000,
-            }"
-            >Enroll</div>
+              class="mt-8 absolute buttons cursor-pointer"
+              onclick="window.location='/oneyear'"
+            >Learn More</div>
           </div>
         </div>
       </div>
