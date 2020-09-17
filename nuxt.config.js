@@ -65,7 +65,8 @@ export default {
      ** Plugins to load before mounting the App
      */
     plugins: [
-        { src: '~/plugins/carousel.js', ssr: false }
+        { src: '~/plugins/carousel.js', ssr: false },
+        { src: '~plugins/ga.js', mode: 'client' }
     ],
     /*
      ** Nuxt.js dev-modules
