@@ -48,21 +48,47 @@
     </div>
     <div style="background-color:#16246a">
       <div class="contact my-container flex flex-wrap py-20">
-        <div class="w-full flex flex-wrap md:w-1/2 lg:w1/2 footer-text-left text-left">
+        <div class="w-full flex flex-wrap md:w-1/3 lg:w1/3 footer-text-left text-left">
         <h3 class="w-full text-center md:text-left">Imperial Coaching</h3>
           <div class="w-full md:w1/2 lg:w-1/2">
             <p>DIMAPUR</p>
-            <p>2nd FLoor, Jakhalu Complex,<br/> Army Supply Road Dhobinala,<br/> Dimapur-787112 <br/> +91 8787-662255</p>
+            <p>2nd FLoor,<br/> Jakhalu Complex,<br/> Army Supply Road Dhobinala,<br/> Dimapur-787112 <br/> +91 8787-662255</p>
           </div>
           <div class="w-full md:w1/2 lg:w-1/2 mt-10 md:mt-0 lg:mt-0 xl:mt-0">
             <p>KOHIMA</p>
             <p>1st Floor West Road Mall,<br/> Jail Colony <br/>Kohima-797001 <br/> +91813191553</p>
           </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/2 footer-text-right">
+        <div class="w-full md:w-1/3 lg:w-1/3 footer-text-center text-center">
+        <h3 class="w-full">Navigation</h3>
+        <div>
+          <p v-scroll-to="{
+            el:'.header',
+            easing:'linear',
+            duration:'1000'
+          }" class="cursor-pointer text-left md:text-center"
+          >Home</p>
+          <p v-scroll-to="{
+            el:'.courses',
+            easing:'linear',
+            duration:'1000'
+          }" class="cursor-pointer text-left md:text-center">Courses</p>
+          <p v-scroll-to="{
+            el:'.footer',
+            easing:'linear',
+            duration:'1000'
+          }" class="cursor-pointer text-left md:text-center">About</p>
+          <p v-scroll-to="{
+            el:'.enroll',
+            easing:'linear',
+            duration:'1000'
+          }" class="cursor-pointer text-left md:text-center">Contact</p>
+        </div>
+        </div>
+        <div class="w-full md:w-1/3 lg:w-1/3 footer-text-right">
           <h3 class="text-center md:text-left lg:text-left">Subscribe to our newsletter</h3>
           <div class="mt-12 flex flex-wrap">
-            <input class="p-4 md:w-9/12 lg:9/12" type="email" name id placeholder="Your email here" />
+            <input class="p-4" type="email" name id placeholder="Your email here" />
             <button class="ml-5 px-16">Submit</button>
           </div>
           <div class="flex justify-around mt-16 w-full md:w-full lg:w-8/12">
@@ -160,6 +186,7 @@
 
   input {
     border-radius: 8px;
+    width: 69%;
   }
 
   button {
@@ -172,6 +199,18 @@
 
   img {
     height: 35px;
+  }
+}
+
+.footer-text-center {
+  h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ff5454;
+    font-family: "Gilroy-Bold";
+  }
+  p {
+    color:white
   }
 }
 </style>
