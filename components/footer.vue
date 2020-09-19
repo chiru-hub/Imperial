@@ -51,12 +51,12 @@
         <div class="w-full flex flex-wrap md:w-1/3 lg:w1/3 footer-text-left text-left">
         <h3 class="w-full text-center md:text-left">Imperial Coaching</h3>
           <div class="w-full md:w1/2 lg:w-1/2">
-            <p>DIMAPUR</p>
-            <p>2nd FLoor,<br/> Jakhalu Complex,<br/> Army Supply Road Dhobinala,<br/> Dimapur-787112 <br/> +91 8787-662255</p>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i> DIMAPUR</p>
+            <p>2nd FLoor,<br/> Jakhalu Complex,<br/> Army Supply Road Dhobinala,<br/> Dimapur-787112 <br/><a href="tel:+91 8787-662255"> <i class="fa fa-phone white" aria-hidden="true"></i> +91 8787-662255</a></p>
           </div>
           <div class="w-full md:w1/2 lg:w-1/2 mt-10 md:mt-0 lg:mt-0 xl:mt-0">
-            <p>KOHIMA</p>
-            <p>1st Floor West Road Mall,<br/> Jail Colony <br/>Kohima-797001 <br/> +91813191553</p>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i> KOHIMA</p>
+            <p>1st Floor West Road Mall,<br/> Jail Colony <br/>Kohima-797001 <br/> <a href="tel:+91813191553"> <i class="fa fa-phone white" aria-hidden="true"></i> +91813191553</a></p>
           </div>
         </div>
         <div class="w-full md:w-1/3 lg:w-1/3 footer-text-center text-center">

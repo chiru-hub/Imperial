@@ -18,7 +18,8 @@ export default {
             }
         ],
         script: [
-            { src: "/js/jquery-3.4.1.slim.min.js" }
+            { src: "/js/jquery-3.4.1.slim.min.js" },
+            { src: "https://use.fontawesome.com/5eca4a5f63.js"}
         ]
     },
 
