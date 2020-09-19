@@ -59,7 +59,7 @@ export default {
       {    
       hid: 'description',
       name: 'description',
-      content:'Imperial institute provides 1 year coaching program for JEE and NEET in Guwahati with advance level guidance and advanced courses for the students.'
+      content:'Imperial institute provides 1 year coaching program for JEE and NEET in Nagaland with advance level guidance and advanced courses for the students.'
       },
       {    
       hid: 'keywords',
