@@ -13,13 +13,13 @@
               :autoplayTimeout="4000"
             >
               <slide>
-                <img class="image object-cover" src="/images/caro1.jpg" alt />
+                <img class="image object-cover" src="/images/caro1.jpg" alt="best result in nagaland" />
               </slide>
               <slide>
-                <img class="image object-cover" src="/images/caro2.jpg" alt />
+                <img class="image object-cover" src="/images/caro2.jpg" alt="integrated coaching jee" />
               </slide>
               <slide>
-                <img class="image object-cover" src="/images/caro3.jpg" alt />
+                <img class="image object-cover" src="/images/caro3.jpg" alt="Neet jee scholarship" />
               </slide>
               <!-- <slide>
                 <img class="image object-cover" src="/images/caro4.jpg" alt />
@@ -39,10 +39,10 @@
 
         <div class="flex justify-around w-full md:w-full lg:w-8/12 social-logo">
         <a href="https://facebook.com/imperialcoachingcenter/" target="_blank">
-            <img src="/images/facebook.png" alt />
+            <img src="/images/facebook.png" alt="imperial facebook" />
           </a>
           <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank">
-            <img src="/images/instagram.png" alt />
+            <img src="/images/instagram.png" alt="imperial instagram" />
           </a>
         </div>
       </div>

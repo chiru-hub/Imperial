@@ -4,7 +4,7 @@
       <div class="flex flex-wrap">
         <div class="w-full lg:w-8/12">
           <div class="flex flex-wrap items-end justify-around">
-            <img class="" src="/images/crashcourse.jpeg" alt="">
+            <img class="" src="/images/crashcourse.jpeg" alt="crash course jee/neet">
             <h1 class="mt-10 md:mt-16">
               NEET/ JEE Main and Advanced Crash course
             </h1>

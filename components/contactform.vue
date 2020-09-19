@@ -4,7 +4,7 @@
       <div class="flex flex-wrap py-10">
         <div class="w-full md:w-3/5 lg:w-3/5">
           <div class="flex flex-wrap items-end">
-            <img class="mx-auto lg:mx-none " src="/images/call_icon.png" alt />
+            <img class="mx-auto lg:mx-none " src="/images/call_icon.png" alt="call" />
             <p class="sship lg:w-1/2">Scholarship Announcement</p>
           </div>         
           <div class="w-full lg:p-5">
@@ -18,13 +18,13 @@
                   :autoplayTimeout="3000"
                 >
                 <slide>
-                  <img class="object-contain" src="/images/form-caro1.jpg" alt="">
+                  <img class="object-contain" src="/images/form-caro1.jpg" alt="lt hejeto aye scholarship">
                 </slide>
                 <slide>
-                  <img class="object-contain" src="/images/form-caro2.jpg" alt="">
+                  <img class="object-contain" src="/images/form-caro2.jpg" alt="lt hejeto aye scholarship">
                 </slide>
                 <slide>
-                  <img class="object-contain" src="/images/form-caro3.jpg" alt="">
+                  <img class="object-contain" src="/images/form-caro3.jpg" alt="lt hejeto aye scholarship">
                 </slide>
               </carousel>
             </client-only>

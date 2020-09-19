@@ -21,25 +21,25 @@
               :autoplayTimeout="3000"
             >
               <slide>
-                <img class="image object-contain" src="/images/about-caro1.jpeg" alt />
+                <img class="image object-contain" src="/images/about-caro1.jpeg" alt="Physics Imperial" />
               </slide>
               <slide>
-                <img class="image object-contain" src="/images/about-caro2.jpeg" alt />
+                <img class="image object-contain" src="/images/about-caro2.jpeg" alt="Chemistry Imperial" />
               </slide>
               <slide>
-                <img class="image object-contain" src="/images/about-caro3.jpeg" alt />
+                <img class="image object-contain" src="/images/about-caro3.jpeg" alt="Zoology Imperial" />
               </slide>
               <slide>
-                <img class="image object-contain" src="/images/about-caro4.jpeg" alt />
+                <img class="image object-contain" src="/images/about-caro4.jpeg" alt="Physics Imperial" />
               </slide>
               <slide>
-                <img class="image object-contain" src="/images/about-caro5.jpeg" alt />
+                <img class="image object-contain" src="/images/about-caro5.jpeg" alt="Mechanical Engineering Imperial" />
               </slide>
               <slide>
-                <img class="image object-contain" src="/images/about-caro6.jpeg" alt />
+                <img class="image object-contain" src="/images/about-caro6.jpeg" alt="Botany Imperial" />
               </slide>
               <slide>
-                <img class="image object-contain" src="/images/about-caro7.jpeg" alt />
+                <img class="image object-contain" src="/images/about-caro7.jpeg" alt="Career Counsellor" />
               </slide>
             </carousel>
           </client-only>
@@ -92,8 +92,8 @@
             <button class="ml-5 px-16">Submit</button>
           </div>
           <div class="flex justify-around mt-16 w-full md:w-full lg:w-8/12">
-            <a href="https://facebook.com/imperialcoachingcenter/" target="_blank"><img src="/images/facebook.png" alt /></a>
-            <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank" ><img src="/images/instagram.png" alt /></a>
+            <a href="https://facebook.com/imperialcoachingcenter/" target="_blank"><img src="/images/facebook.png" alt="facebook.com" /></a>
+            <a href="https://www.instagram.com/imperialcoaching2020/" target="_blank" ><img src="/images/instagram.png" alt="instagram.com" /></a>
           </div>
         </div>
       </div>

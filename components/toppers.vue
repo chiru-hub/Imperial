@@ -3,7 +3,7 @@
     <div class="my-container py-10">
       <div class="flex flex-wrap lg:py-32">
         <div class="w-full lg:w-1/3 lg:py-5">
-          <img src="/images/filled_outline.png" alt />
+          <img src="/images/filled_outline.png" alt="jee/neet topper" />
         </div>
         <div class="w-full lg:w-1/2 self-center">
           <h2 class="text-center lg:text-left">Our Toppers -</h2>
@@ -23,7 +23,7 @@
           >
             <slide class="w-full carousel-slide">
               <div class="student-cards relative">
-                <img src="/images/topper1.jpeg" alt />
+                <img src="/images/topper1.jpeg" alt="raj paul jee rank holder" />
                 <div
                   class="w-4/5 mx-auto student-cards-box absolute py-6"
                 >
@@ -35,7 +35,7 @@
             </slide>
             <slide class="w-full carousel-slide">
               <div class="student-cards relative">
-                <img src="/images/topper2.jpeg" alt />
+                <img src="/images/topper2.jpeg" alt="sangerbenla txudir jee rank holder" />
                 <div
                   class="w-4/5 mx-auto student-cards-box absolute py-6"
                 >
@@ -48,7 +48,7 @@
             </slide>
             <slide class="w-full carousel-slide">
               <div class="student-cards relative">
-                <img src="/images/topper3.jpeg" alt />
+                <img src="/images/topper3.jpeg" alt="anushka bhattacharjee jee rank holder" />
                 <div
                   class="w-4/5 mx-auto student-cards-box absolute py-6"
                 >

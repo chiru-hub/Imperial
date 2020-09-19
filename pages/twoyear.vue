@@ -4,7 +4,7 @@
       <div class="flex flex-wrap">
         <div class="w-full lg:w-8/12">
           <div class="flex flex-wrap items-end justify-around">
-            <img class="" src="/images/twoyear.jpeg" alt="">
+            <img class="" src="/images/twoyear.jpeg" alt="two year crash course jee/neet">
             <h1 class="mt-10 md:mt-16">
               2 Year Integrated Coaching Program for JEE Main + Advance and NEET Exam
             </h1>

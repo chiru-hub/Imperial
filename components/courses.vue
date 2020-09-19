@@ -3,7 +3,7 @@
     <div class="my-container courses py-10">
       <div class="flex flex-wrap lg:py-32">
         <div class="w-full lg:w-1/3 lg:py-5">
-          <img src="/images/certificate_icon.png" alt />
+          <img src="/images/certificate_icon.png" alt="courses" />
         </div>
         <div class="w-full lg:w-1/2 self-center">
           <h2 class="text-center lg:text-left">Courses -</h2>
