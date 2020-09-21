@@ -47,7 +47,7 @@ export default class Index extends Vue {
 
   head(){
     return {
-      title:'Jee Advanced Crash Courses | Jee Crash Course in Dimapur',
+      title:'Jee Advanced Crash Courses | Jee Crash Course in Nagaland',
       meta: [
         {
           hid:'keywords',
